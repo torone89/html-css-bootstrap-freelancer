@@ -71,7 +71,7 @@ header {
 
 #portofolio {
     background-color: #0df5c6;
-    height: 500px;
+    max-height: 100%;
 }
 
 /* ABOUT */
