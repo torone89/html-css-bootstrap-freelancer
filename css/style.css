@@ -110,3 +110,13 @@ header {
     background-color: #2c3e4f;
     height: 100px;
 }
+
+
+
+/* DA TOGLIERE */
+
+figure {
+    height: 100px;
+    width: 100px;
+    background-color: black;
+}
