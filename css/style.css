@@ -86,7 +86,7 @@ header {
 
 #contact {
     background-color: #0df5c6;
-    height: 500px;
+    max-height: 100%;
 }
 
 
@@ -101,7 +101,7 @@ header {
 
 #footer-top {
     background-color: #39546d;
-    height: 300px;
+    max-height: 100%;
 }
 
 /* FOOTER- BOTTOM */
