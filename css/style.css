@@ -28,7 +28,7 @@ CARD
 
 .row>[class^='col'] {
     min-height: 100px;
-    background-color: blanchedalmond;
+
     border: 1px gray solid;
 }
 
@@ -38,6 +38,21 @@ CARD
 }
 
 
+.hr-white {
+    background-color: white;
+    height: 3px;
+    width: calc(100px + 1.5vw);
+    margin: .1rem;
+}
+
+.hr-black {
+    background-color: black;
+}
+
+section {
+    margin-bottom: 30px;
+
+}
 
 /* *************************/
 /* UTILITIES */
@@ -80,17 +95,27 @@ header {
 
 #about {
     background-color: #18957b;
-    height: 500px;
+    max-height: 100%;
 }
 
 
 /* CONTACT */
 
 #contact {
-    background-color: #0df5c6;
+
     max-height: 100%;
 }
 
+/* FIX BUTTON BOOTSTRAP */
+.bg-green {
+    background-color: #18957b;
+    border-radius: 7px;
+
+}
+
+:hover .bg-green {
+    background-color: black;
+}
 
 
 
@@ -104,6 +129,7 @@ header {
 #footer-top {
     background-color: #39546d;
     max-height: 100%;
+    margin-bottom: 0;
 }
 
 /* FOOTER- BOTTOM */
@@ -111,6 +137,7 @@ header {
 #footer-bottom {
     background-color: #2c3e4f;
     height: 100px;
+    margin: 0;
 }
 
 #f.text-green {
