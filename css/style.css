@@ -22,21 +22,6 @@ CARD
 
 
 
-.row {
-    border: 2px dashed yellow;
-}
-
-.row>[class^='col'] {
-    min-height: 100px;
-
-    border: 1px gray solid;
-}
-
-.row .row>[class^='col'] {
-    background-color: orange;
-
-}
-
 
 .hr-white {
     background-color: white;
@@ -81,13 +66,12 @@ header {
 
 #start-boostrap {
     background-color: #18957b;
-    height: 500px;
+    height: 700px;
 }
 
 /* PORTOFOLIO */
 
 #portofolio {
-    background-color: #0df5c6;
     max-height: 100%;
 }
 
@@ -140,9 +124,18 @@ header {
     margin: 0;
 }
 
-#f.text-green {
+.text-green {
     color:
         #18957b;
-    display: inline;
 
+
+}
+
+.icon-radius {
+    height: 30px;
+    width: 30px;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 18px;
+    margin-left: 1rem;
 }
