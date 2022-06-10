@@ -66,7 +66,7 @@ header {
 
 #start-boostrap {
     background-color: #18957b;
-    height: 700px;
+    max-height: 100%;
 }
 
 /* PORTOFOLIO */
@@ -97,9 +97,7 @@ header {
 
 }
 
-:hover .bg-green {
-    background-color: black;
-}
+
 
 
 
