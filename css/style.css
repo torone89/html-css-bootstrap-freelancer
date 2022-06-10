@@ -97,6 +97,11 @@ header {
 
 }
 
+.img-first {
+    width: calc(300px + 10.5vw);
+    height: calc(300px + 2.5vw);
+}
+
 
 
 
